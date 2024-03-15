@@ -1,0 +1,66 @@
+html,body{
+	height: 99%;
+	width: 99%;
+  background-color:#f7cac9
+}
+*{
+	box-sizing: border-box;
+}
+.banner{
+	background-color:rgb(255, 229, 229);
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #e29dd3;
+	box-shadow: 1px 3px 30px 1px #e9a0a0;
+	text-transform: capitalize;
+	text-shadow: 1px 1px #d3b592 ;
+	font-family: Garamond;
+	height: 120px;
+	text-align: right;
+	font-style: oblique;
+}
+h1{
+	font-size: 0.7em;
+}
+
+#logo{
+	width: 75px;
+	position: absolute;
+	top: 30px;
+	left: 150px;
+}
+.container{
+	border:2px #3e0404 solid;
+	position: relative;
+	top: 2px;
+	margin: 15px;
+	padding: 10px;
+	height: 700px;
+	overflow: hidden;
+	background-image:url(art3.png)
+}
+.wave{
+	border: #cc8ea4 1px solid;
+	color: whitesmoke;
+	text-align: center;
+	background-color: rgb(220, 197, 172);
+	font-size: 0.9em;
+	height: 55px;
+	overflow: hidden;
+	width: 80%;
+	position:relative;
+	left: 10%;
+	transition: height 4s;
+	display:block;
+}
+#l1{
+	border:#cdc6b2 1px solid;
+	background-image:repeating-linear-gradient(#e5cbae, #efc3c7);
+  font-size: 2.0em;
+  color:#9e5351;
+}
+.wave:hover{
+	height:90%;
+	top:2px;
+	z-index:1;
+}
